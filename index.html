@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav flex">
+        <div class="nav-con flex spc-btw pad">
+            <h1>Dojonary</h1>
+            <input 
+            class="srch"
+            type="text" 
+            name="search" 
+            placeholder="Search">
+            <button
+            onclick="login(this)"
+            class="login-btn btn-pad shdw">
+            Login
+            </button>
+        </div>
+    </div>
+    <div class="main flex">
+        <div class="l-col flex pad f-col">
+            <div class="def flex border margin-b pad">
+                <div class="flex f-col align-center">
+                    <h1 class="margin-b">ninja</h1>
+                    <p class="margin-b">noun</p>
+                    <p class="margin-b">Plural: <span class="i">ninjas</span></p>
+                    <button
+                        onclick="alertText()"
+                        class="like-btn btn-pad shdw">
+                        13 likes
+                    </button>
+                </div>
+                <div class="flex center wid90 align-center">
+                    <p class="define">
+                        A practitioner skilled in the 
+                        <a href="#">Japanese</a> 
+                        art of 
+                        <a href="#">ninjutsu</a>
+                    </p>
+                </div>
+            </div>
+            <div class="def flex border margin-b pad">
+                <div class="flex f-col align-center">
+                    <h1 class="margin-b">ninja</h1>
+                    <p class="margin-b">noun</p>
+                    <p class="margin-b">Plural: <span class="i">ninjas</span></p>
+                    <button 
+                        onclick="alertText()"
+                        class="like-btn btn-pad shdw">
+                        37 likes
+                    </button>
+                </div>
+                <div class="flex center wid90 align-center">
+                    <p class="define">
+                        A
+                        <a href="#">Programmer</a> 
+                        who breaks down problems with
+                        <a href="#">zen</a>
+                        -like focus
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="r-col flex margin-t margin-r">
+            <div class="flex pad border height">
+                <div class="add-def">
+                    <p class="larger-font">
+                        Dojonary is defined by 
+                        <span class="bold">YOU</span>
+                    </p>
+                    <div class="flex center align-center margin-t">
+                        <button 
+                            onclick="remove(this)"
+                            class="shdw btn-pad def-btn">
+                            Add Definition
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

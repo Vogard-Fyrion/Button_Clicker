@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.nav{
+    background-color: lightgray;
+    width: 100%;
+}
+.nav-con{
+    width: 100%;
+}
+.srch{
+    width: 40%;
+}
+.main{
+    width: 100%;
+}
+.l-col{
+    flex: 2;
+}
+.r-col{
+    flex: 1;
+}
+.login-btn{
+    background-color: royalblue;
+    color: white;
+}
+.flex{
+    display: flex;
+}
+.f-col{
+    flex-direction: column;
+}
+.like-btn{
+    background-color: khaki;
+}
+.wid90{
+    width: 90%;
+}
+.larger-font{
+    font-size: 1.5em;
+}
+.def-btn{
+    background-color: darkseagreen;
+}
+.height{
+    height: 25%;
+}
+.pad{
+    padding: 1em;
+}
+.btn-pad{
+    padding: .25em 1em;
+}
+.mar{
+    margin: 1em;
+}
+.shdw{
+    box-shadow: 2px 2px 2px black;
+}
+.spc-btw{
+    justify-content: space-between;
+}
+.center{
+    justify-content: center;
+}
+.border{
+    border: black 3px solid;
+}
+.margin-t{
+    margin-top: 1em;
+}
+.margin-r{
+    margin-right: 1em;
+}
+.margin-b{
+    margin-bottom: 1em;
+}
+.i{
+    font-style: italic;
+}
+.bold{
+    font-weight: bold;
+}
+.align-center{
+    align-items: center;
+}
